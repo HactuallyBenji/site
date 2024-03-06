@@ -1,0 +1,1 @@
+Dependency Injection (DI) is a specialized form of [[Inversion of Control]]. With dependency injection objects define their dependencies through their constructor arguments, factory method arguments, or properties that are set on the object instance upon instantiation/returned from a factory method. 

@@ -1,0 +1,3 @@
+### Mocking, Used Sparingly
+
+Sometimes you want to test something that depends on something else that you don't want to test that "something else". To "mock", or create empty versions of the thing we **don't** want to test, we can use the @Mock annotation above the "something else" class. We can use the @Mock annotation to create and inject mocked instances without having to call Mockito.mock manually and pass in the class.
